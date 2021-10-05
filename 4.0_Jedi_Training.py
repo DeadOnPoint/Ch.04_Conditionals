@@ -28,8 +28,10 @@ if answer != "BB8":
   # 4. Make the following program work. (4 mistakes)
 
 x = input("Name one of the top 4 greatest Jedi. ")
-if x == "Yoda" or "Luke Skywalker" or "Obi-Wan Kenobi" or "Revan":
+if x == "Yoda" or x == "Luke Skywalker" or x == "Obi-Wan Kenobi" or x == "Revan":
     print("That is correct!")
+else:
+    print("You are wrong DONKEY!!")
 #search up jedi Revan Mr. Hermon, he clowns on everyone including Yoda
 
 
